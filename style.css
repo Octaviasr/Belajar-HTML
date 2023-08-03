@@ -1,0 +1,22 @@
+*{
+    text-align: center;
+}
+.container{
+    margin-top: 40px;    
+}
+h3{
+    color: rgb(231, 83, 159);
+    font-size: 28px;
+}
+p{
+    font-size: 20px;
+}
+#container{
+    color: rgb(7, 22, 49);
+    font-family: Arial, Helvetica, sans-serif;
+}
+span{
+    background-color: rgb(232, 255, 127);
+}
+
+
