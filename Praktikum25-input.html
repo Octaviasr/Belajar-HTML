@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input</title>
+</head>
+<body>
+    <!--input text-->
+    <pre>
+        <h1 style="margin-left: 30px;">Form pengisian</h1>
+    <label for="nama" style="font-size: 15px;">Nama </label>
+    <input type="text" name="nama" placeholder="Masukan nama anda">
+
+    <label for="password" style="font-size: 15px;">Password </label>
+    <input type="password" name="password" placeholder="Masukan password anda">
+
+    <label for="email" style="font-size: 15px;">Alamat Email </label>
+    <input type="email" id="email" name="email" placeholder="Masukan alamat email anda" required>
+
+    <label for="umur" style="font-size: 15px;">Umur </label>
+    <input type="number" name="umur" min="18" max="100">
+    </pre>
+    <!--input-->
+    <div>
+        <pre>
+    <input type="checkbox" name="hobi" value="memancing">Memancing
+    <input type="checkbox" name="hobi" value="menggambar">Menggambar
+    
+    <input type="radio" name="jk" value="wanita">Wanita
+    <input type="radio" name="jk" value="pria">Pria
+    
+    <input type="file" name="berkas">
+    
+    <input type="date" name="tanggal_lahir">
+
+    <label for="waktu">Pilih waktu</label>
+    <input type="time" id="waktu" name="waktu" min="8:00" max="20:00" required>
+
+    <label for="warna">Pilih warna favorit</label>
+    <input type="color" id="warna" name="warna" value="#ff000">
+
+    <label for="volume">Atur Volume</label>
+    <input type="range" id="volume" name="volume" min="0" max="100" step="1" value="50">
+    
+    <button type="submit">Kirim</button> <input type="reset" value="Reset">
+    </div>
+    
+</body>
+</html>
